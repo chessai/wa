@@ -36,8 +36,17 @@ library
     src
   exposed-modules:
     Wa
+    Wa.Api
+    Wa.Dual
+    Wa.Evaluate
+    Wa.Examples
+    Wa.Parser
+    Wa.Types
   build-depends:
     , base >= 4.10.1.0 && < 4.13
+    , linear >= 1.20 && < 1.21
+    , megaparsec >= 7 && < 7.1
+    , parser-combinators >= 1 && < 2
   ghc-options:
     -Wall
     -O2
